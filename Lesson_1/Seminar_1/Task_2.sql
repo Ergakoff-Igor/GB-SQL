@@ -13,4 +13,4 @@ SELECT name, email FROM students;
 
 # 4*.	Выбрать студентов, фамилии которых начинаются с буквы «А».
 SELECT * FROM students 
-WHERE name LIKE'D%';
+WHERE name studentsLIKE'D%';

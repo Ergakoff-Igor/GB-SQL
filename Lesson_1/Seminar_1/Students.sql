@@ -12,3 +12,5 @@ CREATE TABLE `teachers` (
   `teacherName` VARCHAR(30) NOT NULL,
   `studentName` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`));
+  
+  
