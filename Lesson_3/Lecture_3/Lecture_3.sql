@@ -70,8 +70,12 @@ SELECT manufacturer, COUNT(*) AS Models, price, productCount
 FROM productsDb
 WHERE price > 40000
 GROUP BY manufacturer;
+/*
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+*/
 
 
+SELECT * FROM productsDb;
 
 
 
