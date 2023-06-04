@@ -20,7 +20,7 @@ __*Таблица "messages"  для заданий:*__
 
 __*[SQL script Homework 5 Task 1](https://github.com/Ergakoff-Igor/GB-SQL/blob/main/Lesson_5/Homework_5/SQL_Scripts/HW_5_task_1.sql)*__
 
-![Homework 5 Task 1](https://github.com/Ergakoff-Igor/GB-SQL/blob/main/Lesson_5/Homework_5/ScreenShots/HW_5_task_1.png?raw=true)
+![Homework 5 Task 1](https://github.com/Ergakoff-Igor/GB-SQL/blob/main/Lesson_5/Homework_5/ScreenShots/HW_5_task_1_correct.png?raw=true)
 
 2. Найдите кол-во  отправленных сообщений каждым пользователем и  выведите ранжированный список пользователей, указав имя и фамилию пользователя, количество отправленных сообщений и место в рейтинге 
 (первое место у пользователя с максимальным количеством сообщений). 
