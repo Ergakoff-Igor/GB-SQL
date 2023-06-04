@@ -4,8 +4,9 @@
 USE homework_5;
 
 CREATE OR REPLACE VIEW Users_info AS
-SELECT CONCAT(users.firstname, ' ', users.lastname) AS Full_name, profiles.hometown, profiles.gender
+SELECT CONCAT(users.firstname, ' ', users.lastname) AS Full_name, profiles.hometown, profiles.gender, profiles.birthday
 FROM users
-RIGHT JOIN profiles ON users.id = profiles.user_id;
+RIGHT JOIN profiles ON users.id = profiles.user_id
+WHERE TIMESTAMPDIFF(YEAR, profiles.birthday, CURDATE()) < 20;
 
 SELECT * FROM Users_info;
